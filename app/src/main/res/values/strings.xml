@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">eVisa Application</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="nation_prompt">Select a Nation</string>
+    <string name="gender_prompt">Select a Gender</string>
+    <string name="document_prompt">Select Visa</string>
+    <string name="set_date">Date Of Birth</string>
+    <string name="set_entry_date">Entry Date</string>
+    <string name="set_exit_date">Exit</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nation_arrays">
+        <item>Chinese</item>
+        <item>Cambodian</item>
+        <item>Indonesian</item>
+        <item>Laotian / Lao</item>
+        <item>Malaysian</item>
+        <item>Burmese</item>
+        <item>Filipino</item>
+        <item>Singaporean</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+
+    </string-array>
+
+    <string-array name="country_arrays">
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>East Timor</item>
+        <item>Indonesia</item>
+        <item>Laos</item>
+        <item>Malaysia</item>
+        <item>Myanmar</item>
+        <item>Philippines</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="Document_arrays">
+        <item>Single Entry Visa</item>
+        <item>Multiple Entry Visa </item>
+        <item>Transit Visa</item>
+    </string-array>
+
+    <string name="title_activity_payment">Payment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_successfull">Successfull</string>
+
+    <string name="title_activity_passportno">passportno</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/blurred_view"
+            />
+
+    <ken.visa1.BlurringView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/blurring_view"/>
+
+    <GridView
+        android:id="@+id/menu_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:horizontalSpacing="16dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:overScrollMode="never"
+        android:padding="16dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN MENU"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toStartOf="@+id/tourismImage"
+        android:text="For future information on tourism in Malaysia, please click the icon :"
+        android:textAlignment="textStart"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/tourismImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="viewinfo"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignTop="@+id/tvInfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
